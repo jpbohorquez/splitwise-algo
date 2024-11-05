@@ -34,4 +34,4 @@ print(f"Total number of payments: {m.ObjVal/2}")  # Divided since model is redun
 for p1 in P:
     for p2 in P:
         if x[p1,p2].X < 0:
-            print(f'{p1} ows {int(-x[p1,p2].X)} to {p2}')
+            print(f'{p1} owes {int(-x[p1,p2].X)} to {p2}')

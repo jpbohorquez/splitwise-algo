@@ -1,2 +1,3 @@
 # spliwise-algo
-Optimization model to replicate splitwise algorithm.
+Optimization models to replicate splitwise algorithm.
+Read more on [this medium article.](https://medium.com/@juan_bohorquez)

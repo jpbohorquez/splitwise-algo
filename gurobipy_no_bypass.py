@@ -36,7 +36,4 @@ print("***************** Solution *****************")
 print(f"Total number of payments: {m.ObjVal}")
 for t in var_idx:
     if u[t].X:
-        if x[t].X < 0:
-            print(f'{P[t[0]-1]} ows {int(-x[t].X)} to {P[t[1]-1]}')
-        else:
-            print(f'{P[t[1]-1]} ows {int(x[t].X)} to {P[t[0]-1]}')
+        print(f'{P[t[0]-1]} owes {int(-x[t].X)} to {P[t[1]-1]}')

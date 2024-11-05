@@ -61,6 +61,6 @@ print(f"Total number of payments: {pyo.value(model.obj)}")
 for (i, j) in var_idx:
     if model.u[i, j].value:
         if model.x[i, j].value < 0:
-            print(f"{P[i - 1]} ows {int(-model.x[i, j].value)} to {P[j - 1]}")
+            print(f"{P[i - 1]} owes {int(-model.x[i, j].value)} to {P[j - 1]}")
         else:
-            print(f"{P[j - 1]} ows {int(model.x[i, j].value)} to {P[i - 1]}")
+            print(f"{P[j - 1]} owes {int(model.x[i, j].value)} to {P[i - 1]}")

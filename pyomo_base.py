@@ -55,5 +55,5 @@ print(f"Total number of payments: {pyo.value(model.obj)/2}")  # Divided since mo
 for i in model.P:
     for j in model.P:
         if model.x[i, j].value < 0:
-            print(f"{P[i - 1]} ows {int(-model.x[i, j].value)} to {P[j - 1]}")
+            print(f"{P[i - 1]} owes {int(-model.x[i, j].value)} to {P[j - 1]}")
 
